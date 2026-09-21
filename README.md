@@ -17,6 +17,6 @@
 
 ## 一键部署到 Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F89404068%2Ffamily-roadtrip-2026&project-name=family-roadtrip-2026&repository-name=family-roadtrip-2026)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F89404068%2Ffamily-roadtrip-2026&project-name=family-roadtrip-2026)
 
 这是纯静态站点，无需构建命令、环境变量或后端。
