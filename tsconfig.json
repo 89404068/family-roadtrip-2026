@@ -1,20 +1,18 @@
 {
+  "include": ["src/**/*.ts", "src/**/*.tsx", "vite.config.ts"],
   "compilerOptions": {
     "target": "ES2022",
-    "useDefineForClassFields": true,
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "allowJs": false,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
     "module": "ESNext",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["vite/client", "node"],
     "moduleResolution": "Bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
+    "allowImportingTsExtensions": true,
     "noEmit": true,
-    "jsx": "react-jsx"
-  },
-  "include": ["src", "vite.config.ts"]
+    "skipLibCheck": true,
+    "strict": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
 }
